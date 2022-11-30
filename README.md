@@ -5,7 +5,18 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-- [👥 Authors](#authors)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👤 Author](#author)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -25,14 +36,69 @@ Personal Portfolio is a project made in the Microverse program.
   </ul>
 </details>
 
-<!-- AUTHORS -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+<!-- GETTING STARTED -->
 
-👤 **Author1**
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps:
+
+### Prerequisites
+
+In order to run this project you need:
+
+- VS Code installed.
+- A GitHub account.
+- Git Bash.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+- On VS Code, you can click on the "Source Control" icon on the left side bar.
+- From there click on the "Clone Repository" button.
+- Paste the URL from this project and choose a folder to store it.
+- Open the project.
+
+I do recommend this method given it is easier, but if you want you can make this process by running commands on the Git Bash terminal.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHOR -->
+
+## 👤 Author <a name="author"></a>
+
+Bryan Hurtado
 
 - GitHub: [@DarkxDev](https://github.com/DarkxDev)
 - Twitter: [@BryanHurtado_](https://twitter.com/BryanHurtado_)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/DarkxDev/Portfolio-Prototype/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please make sure to visit my page and checkout my other works as well.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for guiding through out this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

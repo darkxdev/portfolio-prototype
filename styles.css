@@ -51,10 +51,11 @@
   }
 
   #social {
-    width: 180px;
+    width: 117px;
     display: flex;
     justify-content: space-between;
     padding: 0 15px 80px 15px;
     align-items: center;
+    list-style: none;
   }
 }
