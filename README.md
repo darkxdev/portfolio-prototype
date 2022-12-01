@@ -98,9 +98,9 @@ If you like this project, please make sure to visit my page and checkout my othe
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for guiding through out this project.
+I would like to thank Microverse for their guidance through out this project.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)<tra/p>
 
 <!-- LICENSE -->
 
