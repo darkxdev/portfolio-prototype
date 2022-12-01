@@ -60,20 +60,111 @@
 
   #works_cards {
     background-color: #e5e5e5;
+    width: 100%;
     display: grid;
+    justify-content: space-evenly;
   }
 
-  #card {
-    background-color: #dfe1e6;
-    display: flex;
-    align-items: flex-start;
-  }
-
-  #thumbnail {
-    width: 80%;
+  .cards {
+    width: 327px;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background: #fff;
+    border-radius: 16px;
+    box-sizing: border-box;
+    margin: 100px 0;
+  }
+
+  .thumbnails {
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+  }
+
+  #work_1 {
+    background: url(./imgs/works_1.png);
+  }
+
+  .project_title {
+    width: 295px;
+    height: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    color: #172B4D;
+    margin: 15px 0;
+  }
+
+  .card_tags {
+    width: 295px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+    justify-content: space-evenly;
+  }
+
+  .card_info {
+    width: 295px;
+    height: 76px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    margin: 0;
+  }
+
+  #tags_info {
+    color: #7a869a;
+  }
+
+  .card_categories {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+  }
+
+  .card_categories li {
+    padding: 4px 12px;
+    background: #EBEBFF;
+    color: #6070FF;
+    border-radius: 8px;
+    height: 16px;
+    margin-right: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
   }
 
   .see_more {
+    width: 40%;
+    height: auto;
+    color: #396DF2;
 
+    border-radius: 8px;
+    border-color: #396DF2;
+    border-style: solid;
+    background-color: transparent;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 8px 7px;
+    margin: 15px 0;
   }
