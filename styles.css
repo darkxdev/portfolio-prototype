@@ -57,3 +57,23 @@
     align-items: center;
     list-style: none;
   }
+
+  #works_cards {
+    background-color: #e5e5e5;
+    display: grid;
+  }
+
+  #card {
+    background-color: #dfe1e6;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #thumbnail {
+    width: 80%;
+    height: auto;
+  }
+
+  .see_more {
+
+  }
