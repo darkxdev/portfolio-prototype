@@ -20,7 +20,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal Portfolio] <a name="about-project"></a>
+# 📖 Personal Portfolio <a name="about-project"></a>
 
 Personal Portfolio is a project made in the Microverse program.
 
