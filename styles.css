@@ -1,4 +1,3 @@
-@media (min-width: 400px) {
   body {
     width: 375px;
   }
@@ -58,4 +57,3 @@
     align-items: center;
     list-style: none;
   }
-}
