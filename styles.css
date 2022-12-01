@@ -63,6 +63,7 @@
     width: 100%;
     display: grid;
     justify-content: space-evenly;
+    padding-top: 150px;
   }
 
   .cards {
@@ -74,7 +75,7 @@
     background: #fff;
     border-radius: 16px;
     box-sizing: border-box;
-    margin: 100px 0;
+    margin-bottom: 150px;
   }
 
   .thumbnails {
@@ -87,15 +88,23 @@
     background: url(./imgs/works_1.png);
   }
 
+  #work_2 {
+    background: url(./imgs/works_2.png);
+  }
+
+  #work_3 {
+    background: url(./imgs/works_3.png);
+  }
+
   .project_title {
     width: 295px;
-    height: 36px;
+    height: auto;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    line-height: 45px;
+    line-height: auto ;
     color: #172B4D;
-    margin: 15px 0;
+    margin: 15px 0 5px 0;
   }
 
   .card_tags {
