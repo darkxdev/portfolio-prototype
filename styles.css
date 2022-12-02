@@ -1,5 +1,7 @@
   body {
     width: 375px;
+    height: auto;
+    background-color: #e5e5e5;
   }
 
   #header {
@@ -7,15 +9,26 @@
     justify-content: space-between;
     padding: 15px;
     align-items: center;
+    background-color: #fff;
   }
 
-  #about {
+  #about_up {
     background-image: url(imgs/header_shapes_mobile.png);
+    background-color: #fff;
+    border-radius: 0 0 0 80px ;
+    height: 700px;
+    padding: 0 15px;
   }
 
-  #about h1 {
+  #about_down {
+    background-color: #fff;
+    border-radius: 0 80px 0 0;
+    padding: 0 15px;
+  }
+
+  .about h1 {
     width: 327px;
-    height: 150px;
+    height: 200px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -23,10 +36,11 @@
     line-height: 50px;
     display: flex;
     align-items: center;
-    padding: 100px 15px 0 15px;
+    padding: 90px 0 0 0;
+    margin: 0;
   }
 
-  #about p {
+  .about p {
     width: 327px;
     height: 146px;
     font-family: 'Poppins', sans-serif;
@@ -34,10 +48,10 @@
     font-size: 16px;
     line-height: 24px;
     color: #344563;
-    padding: 0 15px;
+    padding: 0;
   }
 
-  #about h4 {
+  .about h4 {
     width: 117px;
     height: 10px;
     font-family: 'Poppins', sans-serif;
@@ -46,16 +60,17 @@
     font-size: 16px;
     line-height: 10px;
     color: #7f8cff;
-    padding: 0 15px;
+    padding: 0;
   }
 
   #social {
     width: 117px;
     display: flex;
     justify-content: space-between;
-    padding: 0 15px 80px 15px;
+    padding: 0 0 15px 0;
     align-items: center;
     list-style: none;
+    margin: 0;
   }
 
   #works_cards {
@@ -156,7 +171,7 @@
   }
 
   .see_more {
-    width: 40%;
+    width: 50%;
     height: auto;
     color: #396DF2;
 
@@ -166,7 +181,6 @@
     background-color: transparent;
 
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
@@ -174,6 +188,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 8px 7px;
+    padding: 8px 9px;
     margin: 15px 0;
   }
+
+  
