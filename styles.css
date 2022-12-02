@@ -1,5 +1,7 @@
 body {
   background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: 375px) {
@@ -8,7 +10,7 @@ body {
     height: 60px;
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 20px;
     align-items: center;
     background-color: #fff;
     box-sizing: border-box;
@@ -16,13 +18,13 @@ body {
   }
 
   #about_up {
-    box-sizing: border-box;
-    background-image: url(imgs/header_shapes_mobile.png);
-    background-color: #fff;
-    border-radius: 0 0 0 80px;
     width: 375px;
     height: 594px;
-    padding: 0 15px;
+    box-sizing: border-box;
+    background: url(imgs/header_shapes_mobile.png);
+    background-color: #fff;
+    border-radius: 0 0 0 80px;
+    padding: 0 20px;
     margin: auto;
   }
 
@@ -35,7 +37,7 @@ body {
   #about_down {
     background-color: #fff;
     border-radius: 0 80px 0 0;
-    padding: 0 15px;
+    padding: 0 20px;
     margin: auto;
     height: 1300px;
     width: 375px;
@@ -83,7 +85,7 @@ body {
     width: 117px;
     display: flex;
     justify-content: space-between;
-    padding: 0 0 15px 0;
+    padding: 0 0 20px 0;
     align-items: center;
     list-style: none;
     margin: 0;
