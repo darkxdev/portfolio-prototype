@@ -25,6 +25,7 @@ body {
     padding: 0 15px;
     margin: auto;
   }
+
   .about_undercolor {
     width: 375px;
     background-color: #f7f7f9;
@@ -38,7 +39,6 @@ body {
     margin: auto;
     height: 1300px;
     width: 375px;
-    margin: auto;
     box-sizing: border-box;
   }
 
