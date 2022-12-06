@@ -341,6 +341,7 @@ body {
 
   #form_submit:hover {
     background-color: #6070ff;
+    border-color: #fff;
   }
 
   #form_submit:active {
