@@ -271,4 +271,88 @@ body {
   #arrow_1 {
     transform: rotate(0deg);
   }
+
+  .contact_undercolor {
+    background-color: #fff;
+    width: 375px;
+    margin: auto;
+    height: 800px;
+  }
+
+  #contact-form {
+    width: 375px;
+    height: 800px;
+    margin: auto;
+    background: url(./imgs/contact_shapes_mobile.png);
+    background-color: #6070ff;
+    border-radius: 80px 0 0 0;
+  }
+
+  #contact-form h1 {
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    line-height: 50px;
+    padding: 110px 0 0 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #contact-form p {
+    color: #ebebff;
+    width: 327px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto 50px auto;
+    text-align: center;
+    line-height: 28px;
+  }
+
+  #form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .form_field {
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 327px;
+    margin: 10px auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #172b4d;
+    padding: 12px;
+    border: none;
+  }
+
+  #form_submit {
+    background-color: #fff;
+    margin-left: 24px;
+  }
+
+  #form_submit:hover {
+    background-color: #6070ff;
+    border-color: #fff;
+  }
+
+  #form_submit:active {
+    background-color: #2230d2;
+    color: #fff;
+    border-color: #396df2;
+  }
+
+  #form_submit:disabled {
+    background-color: transparent;
+    color: #5e6c84;
+    border-color: #5e6c84;
+  }
 }
