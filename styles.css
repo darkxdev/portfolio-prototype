@@ -337,4 +337,19 @@ body {
     background-color: #fff;
     margin-left: 24px;
   }
+
+  #form_submit:hover {
+    background-color: #6070ff;
+  }
+  #form_submit:active {
+    background-color: #2230d2;
+    color: #fff;
+    border-color: #396df2;
+  }
+
+  #form_submit:disabled {
+    background-color: transparent;
+    color: #5e6c84;
+    border-color: #5e6c84;
+  }
 }
