@@ -343,7 +343,6 @@ body {
 }
 
 @media (min-width: 768px) {
-
   #header {
     width: 100%;
     padding: 0 5% 0 5%;
@@ -417,7 +416,8 @@ body {
     flex-direction: column;
   }
 
-  .card_info, .card_tags {
+  .card_info,
+  .card_tags {
     width: 100%;
   }
 
@@ -434,9 +434,6 @@ body {
     margin: 15px 0 5px 0;
   }
 
-  .about_undercolor {
-    width: 100%;
-  }
   #about_down {
     width: 100%;
     height: 700px;
@@ -445,6 +442,7 @@ body {
     justify-content: space-around;
     box-sizing: border-box;
   }
+
   #about_block {
     width: 40%;
     padding-left: 10%;
@@ -455,6 +453,7 @@ body {
     width: 100%;
     height: auto;
   }
+
   #about_block h4 {
     margin: 0;
     padding-bottom: 10px;
@@ -474,11 +473,17 @@ body {
     margin: 10% 0 0 0;
     padding: 0 10% 0 0;
   }
-  
+
   #about_languages ul {
     padding: 0;
     display: flex;
     width: 100%;
+  }
+
+  #about_languages li {
+    display: flex;
+    height: auto;
+    margin-right: 15px;
   }
 
   #about_languages ul li {
@@ -488,18 +493,12 @@ body {
     width: 120px;
     height: auto;
   }
-  
-  #about_languages li {
-    display: flex;
-    height: auto;
-    margin-right: 15px;
-  }
 
   #about_languages li img {
     width: 50px;
     height: auto;
   }
-  
+
   #about_languages span {
     padding: 0;
     line-height: 3em;
@@ -509,6 +508,7 @@ body {
   .contact_undercolor {
     width: 100%;
   }
+
   #contact_form {
     width: 100%;
     background: url(./imgs/contact_shapes_desktop.png);
@@ -520,6 +520,7 @@ body {
   #contact_form p {
     width: 425px;
   }
+
   #form_submit {
     margin: 15px auto;
   }
