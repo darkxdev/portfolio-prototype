@@ -445,6 +445,7 @@ body {
     flex-direction: row;
     margin-bottom: 150px;
   }
+  
   #card_2,
   #card_4 {
     flex-direction: row-reverse;
