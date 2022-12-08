@@ -349,7 +349,7 @@ body {
 @media (min-width: 768px) {
   #header {
     width: 100%;
-    padding: 0 5% 0 5%;
+    padding: 0 10% 0 10%;
     position: fixed;
     filter: drop-shadow(0 -5px 8px #a7aeff);
   }
@@ -360,7 +360,7 @@ body {
 
   #menu_list {
     display: block;
-    width: 20%;
+    width: auto;
     height: 60px;
     line-height: 60px;
   }
@@ -371,7 +371,6 @@ body {
     font-weight: 500;
     font-size: 15px;
     padding: 0;
-    justify-content: space-between;
   }
 
   .social li {
@@ -381,6 +380,8 @@ body {
   #menu_list li {
     list-style: none;
     line-height: 30px;
+    margin-left: 35px;
+    font-size: 13px;
   }
 
   .about {
@@ -393,21 +394,23 @@ body {
     background-color: #fff;
     background-position: center top;
     background-repeat: no-repeat;
-    border-radius: 0 0 0 100px;
+    border-radius: 0 0 0 150px;
     padding: 0;
-    height: 625px;
+    height: 825px;
   }
 
   .about_undercolor {
     width: 100%;
-    padding-top: 120px;
-    background-color: #fff;
+    padding-top: 60px;
+    background-color: #f7f7f9;
   }
 
   .about h1 {
     width: 70%;
     margin: auto;
     height: 122px;
+    font-size: 45px;
+    padding-top: 235px;
   }
 
   .about p {
@@ -442,12 +445,18 @@ body {
     flex-direction: row;
     margin-bottom: 150px;
   }
+  #card_2,
+  #card_4 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 
   .card_block {
     display: flex;
     margin: 0 0 0 35px;
     width: 40%;
     flex-direction: column;
+    padding-top: 20px;
   }
 
   .card_info,
@@ -459,6 +468,22 @@ body {
     width: 50%;
     height: auto;
     object-fit: contain;
+  }
+
+  #work_1 {
+    content: url(./imgs/works_desktop_1.png);
+  }
+
+  #work_2 {
+    content: url(./imgs/works_desktop_2.png);
+  }
+
+  #work_3 {
+    content: url(./imgs/works_desktop_3.png);
+  }
+
+  #work_4 {
+    content: url(./imgs/works_desktop_4.png);
   }
 
   .project_title {
@@ -475,6 +500,7 @@ body {
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
+    border-radius: 0 150px 0 0;
   }
 
   #about_block {
