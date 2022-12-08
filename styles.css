@@ -14,6 +14,7 @@ body {
   background-color: #fff;
   box-sizing: border-box;
   margin: auto;
+  z-index: 1;
 }
 
 #menu_list {
@@ -59,6 +60,16 @@ body {
   align-items: center;
   padding: 110px 0 0 0;
   margin: 0;
+}
+
+@keyframes moveRight {
+  from {
+    margin-left: 0px;
+  }
+
+  to {
+    margin-left: 10px;
+  }
 }
 
 .about p {
@@ -121,7 +132,21 @@ body {
 .thumbnails {
   width: 295px;
   height: 220px;
-  border-radius: 8px;
+  border-radius: 8px; 
+}
+
+.thumbnails:hover {
+  animation: 0.5s forwards scaleUp;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.015);
+  }
 }
 
 #work_1 {
@@ -151,6 +176,10 @@ body {
   margin: 15px 0 5px 0;
 }
 
+.project_title:hover {
+  animation: 0.5s forwards moveRight;
+}
+
 .card_tags {
   width: 295px;
   height: 16px;
@@ -171,6 +200,10 @@ body {
   line-height: 24px;
   color: #344563;
   margin: 0;
+}
+
+.card_info:hover {
+  
 }
 
 #tags_info {
@@ -212,6 +245,7 @@ body {
   display: flex;
   padding: 10px 9px;
   margin: 15px auto 15px 0;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .see_more:hover {
