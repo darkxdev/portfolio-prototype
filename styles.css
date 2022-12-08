@@ -132,7 +132,7 @@ body {
 .thumbnails {
   width: 295px;
   height: 220px;
-  border-radius: 8px; 
+  border-radius: 8px;
 }
 
 .thumbnails:hover {
@@ -203,7 +203,7 @@ body {
 }
 
 .card_info:hover {
-  
+  animation: 0.5s forwards moveRight;
 }
 
 #tags_info {
