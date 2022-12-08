@@ -88,10 +88,14 @@ body {
   width: 117px;
   display: flex;
   justify-content: space-between;
-  padding: 0 0 20px 0;
+  padding: 10px 0;
   align-items: center;
   list-style: none;
   margin: 0;
+}
+
+.social li {
+  margin-right: 22px;
 }
 
 #works_cards {
@@ -118,6 +122,22 @@ body {
   width: 295px;
   height: 220px;
   border-radius: 8px;
+}
+
+#work_1 {
+  content: url(./imgs/works_desktop_3.png);
+}
+
+#work_2 {
+  content: url(./imgs/works_desktop_4.png);
+}
+
+#work_3 {
+  content: url(./imgs/works_3.png);
+}
+
+#work_4 {
+  content: url(./imgs/works_desktop_2.png);
 }
 
 .project_title {
@@ -445,7 +465,7 @@ body {
     flex-direction: row;
     margin-bottom: 150px;
   }
-  
+
   #card_2,
   #card_4 {
     flex-direction: row-reverse;
