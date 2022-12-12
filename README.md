@@ -5,6 +5,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -62,6 +63,16 @@ Clone this repository to your desired folder:
 - Open the project.
 
 I do recommend this method given it is easier, but if you want you can make this process by running commands on the Git Bash terminal.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+You can checkout the running website here:
+
+- [Live Demo Link](https://darkxdev.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
