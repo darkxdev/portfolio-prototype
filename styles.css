@@ -642,3 +642,13 @@ body {
     margin: 15px auto;
   }
 }
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
