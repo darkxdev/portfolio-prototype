@@ -171,6 +171,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 32px;
+  line-height: auto;
   color: #172b4d;
   margin: 15px 0 5px 0;
 }
@@ -205,7 +206,7 @@ body {
   animation: 0.5s forwards moveRight;
 }
 
-.tags_info {
+#tags_info {
   color: #7a869a;
 }
 
@@ -487,7 +488,7 @@ body {
     padding: 10px 0;
   }
 
-  .works_cards {
+  #works_cards {
     width: 100%;
     padding-top: 150px;
   }
@@ -640,4 +641,15 @@ body {
   #form_submit {
     margin: 15px auto;
   }
+}
+
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
 }
