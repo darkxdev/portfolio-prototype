@@ -1,230 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="styles.css" />
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
-        </style>
-        <title>Portfolio Prototype</title>
-    </head>
 
-    <body>
-        <header>
-            <nav id="header">
-                <img id="my_logo" src="./imgs/my_logo.png" />
-                <div><img id="menu" src="./imgs/menu.png" /></div>
-                <div id="menu_list">
-                    <ul>
-                        <li>Portfolio</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
+    </style>
+    <title>Portfolio Prototype</title>
+</head>
 
-        <div class="about_undercolor">
-            <section class="about" id="about_up">
-                <h1>I'm Bryan<br />Glad to see you!</h1>
+<body>
+    <header>
+        <nav id="mobile_menu">
+            <button id="close_icon"><img src="./imgs/close_x.png"></button>
+            <ul>
+                <li class="list_item"><a href="#about_up">Portfolio</a></li>
+                <li class="list_item"><a href="#works_cards">About</a></li>
+                <li class="list_item"><a href="#contact_form">Contact</a></li>
+            </ul>
+        </nav>
+        <nav id="header">
+            <img id="my_logo" src="./imgs/my_logo.png" />
+            <div><img id="menu" src="./imgs/menu.png" /></div>
+            <div id="menu_list">
+                <ul>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="about_undercolor">
+        <section class="about" id="about_up">
+            <h1>I'm Bryan<br />Glad to see you!</h1>
+            <p>
+                I'm a software developer! I can help you build a product, feature or website. Look through some of
+                my work and experience! If you like what you see and have a project you need coded, don't hestiate
+                to contact me.
+            </p>
+            <h4>LET'S CONNECT</h4>
+            <ul class="social">
+                <li>
+                    <a href="https://twitter.com/BryanHurtado_" target="_blank"><img src="./imgs/twitter.png"
+                            alt="Twitter Logo" /></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/bryan-hurtado-432224118/" target="_blank"><img
+                            src="./imgs/linkedin.png" alt="LinkedIn Logo" /></a>
+                </li>
+                <li>
+                    <a href="https://github.com/DarkxDev" target="_blank"><img src="./imgs/github.png"
+                            alt="GitHub Logo" /></a>
+                </li>
+                <li>
+                    <a href="https://www.angellist.com/" target="_blank"><img src="./imgs/angellist.png"
+                            alt="Angellist Logo" /></a>
+                </li>
+                <li>
+                    <a href="https://medium.com/" target="_blank"><img src="./imgs/medium.png" alt="Medium Logo" /></a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <section id="works_cards" id="card_1">
+        <article class="cards">
+            <img class="thumbnails" id="work_1" />
+            <div class="card_block">
+                <h2 class="project_title">Tonic</h2>
+                <p class="card_tags"><b>CANOPY</b> <span id="tags_info">• Back End Dev • 2015</span></p>
+                <p class="card_info">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="card_categories">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <button class="see_more">See Project</button>
+            </div>
+        </article>
+
+        <article class="cards" id="card_2">
+            <img class="thumbnails" id="work_2" />
+            <div class="card_block">
+                <h2 class="project_title">Multi-Post Stories</h2>
+                <p class="card_tags"><b>FACEBOOK</b> <span id="tags_info">• Back End Dev • 2015</span></p>
+                <p class="card_info">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="card_categories">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <button class="see_more">See Project</button>
+            </div>
+        </article>
+
+        <article class="cards" id="card_3">
+            <img class="thumbnails" id="work_3" />
+            <div class="card_block">
+                <h2 class="project_title">Facebook 360</h2>
+                <p class="card_tags"><b>FACEBOOK</b> <span id="tags_info">• Back End Dev • 2015</span></p>
+                <p class="card_info">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="card_categories">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <button class="see_more">See Project</button>
+            </div>
+        </article>
+
+        <article class="cards" id="card_4">
+            <img class="thumbnails" id="work_4" />
+            <div class="card_block">
+                <h2 class="project_title">Uber Navigation</h2>
+                <p class="card_tags"><b>UBER</b> <span id="tags_info">• Back End Dev • 2015</span></p>
+                <p class="card_info">
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                </p>
+                <ul class="card_categories">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <button class="see_more">See Project</button>
+            </div>
+        </article>
+    </section>
+
+    <div class="about_undercolor">
+        <section class="about" id="about_down">
+            <div id="about_block">
+                <h1>About<br />Myself</h1>
                 <p>
-                    I'm a software developer! I can help you build a product, feature or website. Look through some of
-                    my work and experience! If you like what you see and have a project you need coded, don't hestiate
-                    to contact me.
+                    I'm a software developer! I can help you build a product, feature or website. Look through some
+                    of my work and experience! If you like what you see and have a project you need coded, don't
+                    hestiate to contact me.
                 </p>
                 <h4>LET'S CONNECT</h4>
-                <ul class="social">
+                <ul class="social" id="about_social">
                     <li>
-                        <a href="https://twitter.com/BryanHurtado_" target="_blank"
-                            ><img src="./imgs/twitter.png" alt="Twitter Logo"
-                        /></a>
+                        <a href="https://twitter.com/BryanHurtado_" target="_blank"><img src="./imgs/twitter.png"
+                                alt="Twitter Logo" /></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/bryan-hurtado-432224118/" target="_blank"
-                            ><img src="./imgs/linkedin.png" alt="LinkedIn Logo"
-                        /></a>
+                        <a href="https://www.linkedin.com/in/bryan-hurtado-432224118/" target="_blank"><img
+                                src="./imgs/linkedin.png" alt="LinkedIn Logo" /></a>
                     </li>
                     <li>
-                        <a href="https://github.com/DarkxDev" target="_blank"
-                            ><img src="./imgs/github.png" alt="GitHub Logo"
-                        /></a>
+                        <a href="https://github.com/DarkxDev" target="_blank"><img src="./imgs/github.png"
+                                alt="GitHub Logo" /></a>
                     </li>
                     <li>
-                        <a href="https://www.angellist.com/" target="_blank"
-                            ><img src="./imgs/angellist.png" alt="Angellist Logo"
-                        /></a>
+                        <a href="https://www.angellist.com/" target="_blank"><img src="./imgs/angellist.png" /></a>
                     </li>
                     <li>
-                        <a href="https://medium.com/" target="_blank"
-                            ><img src="./imgs/medium.png" alt="Medium Logo"
-                        /></a>
+                        <a href="https://medium.com/" target="_blank"><img src="./imgs/medium.png" /></a>
                     </li>
                 </ul>
-            </section>
-        </div>
+                <button class="see_more">Get my resume</button>
+            </div>
 
-        <section id="works_cards" id="card_1">
-            <article class="cards">
-                <img class="thumbnails" id="work_1" />
-                <div class="card_block">
-                    <h2 class="project_title">Tonic</h2>
-                    <p class="card_tags"><b>CANOPY</b> <span id="tags_info">• Back End Dev • 2015</span></p>
-                    <p class="card_info">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <ul class="card_categories">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
+            <ul id="about_categories">
+                <li id="about_languages">
+                    <span>Languages</span><img class="arrow" id="arrow_1" src="./imgs/arrow_right.png" />
+                    <ul>
+                        <li><img src="./imgs/js_round_logo.png" /><span>JavaScript</span></li>
+                        <li><img src="./imgs/html_round_logo.png" /><span>HTML</span></li>
+                        <li><img src="./imgs/css_round_logo.png" /><span>CSS</span></li>
                     </ul>
-                    <button class="see_more">See Project</button>
-                </div>
-            </article>
-
-            <article class="cards" id="card_2">
-                <img class="thumbnails" id="work_2" />
-                <div class="card_block">
-                    <h2 class="project_title">Multi-Post Stories</h2>
-                    <p class="card_tags"><b>FACEBOOK</b> <span id="tags_info">• Back End Dev • 2015</span></p>
-                    <p class="card_info">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <ul class="card_categories">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <button class="see_more">See Project</button>
-                </div>
-            </article>
-
-            <article class="cards" id="card_3">
-                <img class="thumbnails" id="work_3" />
-                <div class="card_block">
-                    <h2 class="project_title">Facebook 360</h2>
-                    <p class="card_tags"><b>FACEBOOK</b> <span id="tags_info">• Back End Dev • 2015</span></p>
-                    <p class="card_info">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <ul class="card_categories">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <button class="see_more">See Project</button>
-                </div>
-            </article>
-
-            <article class="cards" id="card_4">
-                <img class="thumbnails" id="work_4" />
-                <div class="card_block">
-                    <h2 class="project_title">Uber Navigation</h2>
-                    <p class="card_tags"><b>UBER</b> <span id="tags_info">• Back End Dev • 2015</span></p>
-                    <p class="card_info">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <ul class="card_categories">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                    <button class="see_more">See Project</button>
-                </div>
-            </article>
+                </li>
+                <li>Frameworks<img class="arrow" src="./imgs/arrow_right.png" /></li>
+                <li>Skills<img class="arrow" src="./imgs/arrow_right.png" /></li>
+            </ul>
         </section>
+    </div>
 
-        <div class="about_undercolor">
-            <section class="about" id="about_down">
-                <div id="about_block">
-                    <h1>About<br />Myself</h1>
-                    <p>
-                        I'm a software developer! I can help you build a product, feature or website. Look through some
-                        of my work and experience! If you like what you see and have a project you need coded, don't
-                        hestiate to contact me.
-                    </p>
-                    <h4>LET'S CONNECT</h4>
-                    <ul class="social" id="about_social">
-                        <li>
-                            <a href="https://twitter.com/BryanHurtado_" target="_blank"
-                                ><img src="./imgs/twitter.png" alt="Twitter Logo"
-                            /></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/bryan-hurtado-432224118/" target="_blank"
-                                ><img src="./imgs/linkedin.png" alt="LinkedIn Logo"
-                            /></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/DarkxDev" target="_blank"
-                                ><img src="./imgs/github.png" alt="GitHub Logo"
-                            /></a>
-                        </li>
-                        <li>
-                            <a href="https://www.angellist.com/" target="_blank"><img src="./imgs/angellist.png" /></a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/" target="_blank"><img src="./imgs/medium.png" /></a>
-                        </li>
-                    </ul>
-                    <button class="see_more">Get my resume</button>
-                </div>
+    <div class="contact_undercolor">
+        <section class="about" id="contact_form">
+            <h1>Contact me</h1>
+            <p>
+                If you have an application you are interested in developing, a feature that you need built or a
+                project that needs coding, I’d love to help with it.
+            </p>
+            <form id="form" action="https://formspree.io/f/myyvrjyj" method="post">
+                <label for="" class="sr-only">Full name</label>
+                <input type="text" class="form_field" id="form_name" name="form_name" placeholder="Name" maxlength="30"
+                    required />
+                <label for="" class="sr-only">Email address</label>
+                <input type="email" class="form_field" id="form_email" name="form_email" placeholder="username@domain"
+                    required />
+                <label for="" class="sr-only">Write your message</label>
+                <textarea id="message" class="form_field" name="form_message" rows="6"
+                    placeholder="Write your message here" maxlength="500" required></textarea>
+                <input type="submit" class="see_more" id="form_submit" name="form_submit" value="Get In Touch" />
+            </form>
+        </section>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
 
-                <ul id="about_categories">
-                    <li id="about_languages">
-                        <span>Languages</span><img class="arrow" id="arrow_1" src="./imgs/arrow_right.png" />
-                        <ul>
-                            <li><img src="./imgs/js_round_logo.png" /><span>JavaScript</span></li>
-                            <li><img src="./imgs/html_round_logo.png" /><span>HTML</span></li>
-                            <li><img src="./imgs/css_round_logo.png" /><span>CSS</span></li>
-                        </ul>
-                    </li>
-                    <li>Frameworks<img class="arrow" src="./imgs/arrow_right.png" /></li>
-                    <li>Skills<img class="arrow" src="./imgs/arrow_right.png" /></li>
-                </ul>
-            </section>
-        </div>
-
-        <div class="contact_undercolor">
-            <section class="about" id="contact_form">
-                <h1>Contact me</h1>
-                <p>
-                    If you have an application you are interested in developing, a feature that you need built or a
-                    project that needs coding, I’d love to help with it.
-                </p>
-                <form id="form" action="https://formspree.io/f/myyvrjyj" method="post">
-                    <label for="" class="sr-only">Full name</label>
-                    <input
-                        type="text"
-                        class="form_field"
-                        id="form_name"
-                        name="form_name"
-                        placeholder="Name"
-                        maxlength="30"
-                        required
-                    />
-                    <label for="" class="sr-only">Email address</label>
-                    <input
-                        type="email"
-                        class="form_field"
-                        id="form_email"
-                        name="form_email"
-                        placeholder="username@domain"
-                        required
-                    />
-                    <label for="" class="sr-only">Write your message</label>
-                    <textarea
-                        id="message"
-                        class="form_field"
-                        name="form_message"
-                        rows="6"
-                        placeholder="Write your message here"
-                        maxlength="500"
-                        required
-                    ></textarea>
-                    <input type="submit" class="see_more" id="form_submit" name="form_submit" value="Get In Touch" />
-                </form>
-            </section>
-        </div>
-    </body>
 </html>

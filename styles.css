@@ -15,10 +15,38 @@ body {
   box-sizing: border-box;
   margin: auto;
   z-index: 1;
+  position: relative;
 }
 
 #menu_list {
   display: none;
+}
+
+#mobile_menu {
+  background-color: lightgray;
+  display: none;
+  width: 375px;
+  margin: auto;
+  z-index: 5;
+}
+
+#close_icon {
+  position: absolute;
+  width: 375px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#mobile_menu ul {
+  position: absolute;
+  top: 50px;
+  list-style: none;
+  text-align: center;
+  z-index: 5;
+  width: 375px;
+  padding: 0;
+  margin: 0;
 }
 
 #about_up {
