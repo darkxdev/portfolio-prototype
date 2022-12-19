@@ -27,7 +27,7 @@ body {
   display: none;
   width: 375px;
   margin: auto;
-  height: 700px;
+  height: auto;
 }
 
 #close_icon {
@@ -40,7 +40,7 @@ body {
   text-align: center;
   z-index: 5;
   width: 375px;
-  padding: 0;
+  padding: 150px 0;
   margin: 0;
   clear: both;
 }
@@ -50,6 +50,10 @@ body {
   font-weight: 500;
   font-size: 15px;
   padding: 20px 0;
+}
+
+#mobile_menu ul li a {
+  text-decoration: none;
 }
 
 #about_up {
