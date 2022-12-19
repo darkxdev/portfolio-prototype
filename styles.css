@@ -23,30 +23,33 @@ body {
 }
 
 #mobile_menu {
-  background-color: lightgray;
+  background-color: white;
   display: none;
   width: 375px;
   margin: auto;
-  z-index: 5;
+  height: 700px;
 }
 
 #close_icon {
-  position: absolute;
-  width: 375px;
-  padding: 0;
-  margin: 0;
-  border: 0;
+  float: right;
+  width: auto;
 }
 
 #mobile_menu ul {
-  position: absolute;
-  top: 50px;
   list-style: none;
   text-align: center;
   z-index: 5;
   width: 375px;
   padding: 0;
   margin: 0;
+  clear: both;
+}
+
+#mobile_menu ul li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 20px 0;
 }
 
 #about_up {
