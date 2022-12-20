@@ -32,7 +32,6 @@ body {
   position: fixed;
   left: 0;
   right: 0;
-  margin: auto;
   z-index: 10;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
