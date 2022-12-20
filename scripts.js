@@ -17,3 +17,121 @@ for (let i = 0; i < listItems.length; i += 1) {
     mobileMenu.style.display = 'none';
   });
 }
+
+/* -- HTML Dinamyc Creation */
+
+const WorksArray = [
+  {
+    thumbnail: 'url(./imgs/works_desktop_1.png)',
+    projectTitle: 'Tonic',
+    tags: '<b>CANOPY</b> <span id="tags_info">• Back End Dev • 2015</span>',
+    info: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    categories: '<li>HTML</li><li>CSS</li><li>JavaScript</li>',
+    buttonLive: 'See Project',
+    buttonSource: 'See Source',
+  },
+
+  {
+    thumbnail: 'url(./imgs/works_desktop_2.png)',
+    projectTitle: 'Multi-Post Stories',
+    tags: '<b>CANOPY</b> <span id="tags_info">• Back End Dev • 2015</span>',
+    info: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    categories: '<li>HTML</li><li>CSS</li><li>JavaScript</li>',
+    buttonLive: 'See Project',
+    buttonSource: 'See Source',
+  },
+
+  {
+    thumbnail: 'url(./imgs/works_desktop_3.png)',
+    projectTitle: 'Uber Navigation',
+    tags: '<b>FACEBOOK</b> <span id="tags_info">• Back End Dev • 2015</span>',
+    info: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    categories: '<li>HTML</li><li>CSS</li><li>JavaScript</li>',
+    buttonLive: 'See Project',
+    buttonSource: 'See Source',
+  },
+
+  {
+    thumbnail: 'url(./imgs/works_desktop_4.png)',
+    projectTitle: 'Uber Navigation',
+    tags: '<b>UBER</b> <span id="tags_info">• Back End Dev • 2015</span>',
+    info: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    categories: '<li>HTML</li><li>CSS</li><li>JavaScript</li>',
+    buttonLive: 'See Project',
+    buttonSource: 'See Source',
+  },
+];
+
+const btnCollection = document.getElementsByClassName('see_more');
+
+/* -- Card 1 Content -- */
+
+document.getElementById('card_1').children[0].style.content = WorksArray[0].thumbnail;
+document.getElementById('title_project_1').innerHTML = WorksArray[0].projectTitle;
+document.getElementById('card_tags_1').innerHTML = WorksArray[0].tags;
+document.getElementById('card_info_1').innerHTML = WorksArray[0].info;
+document.getElementById('card_categories_1').innerHTML = WorksArray[0].categories;
+btnCollection[0].innerHTML = WorksArray[0].buttonLive;
+
+/* -- Card 2 Content -- */
+
+document.getElementById('card_2').children[0].style.content = WorksArray[1].thumbnail;
+document.getElementById('title_project_2').innerHTML = WorksArray[1].projectTitle;
+document.getElementById('card_tags_2').innerHTML = WorksArray[1].tags;
+document.getElementById('card_info_2').innerHTML = WorksArray[1].info;
+document.getElementById('card_categories_2').innerHTML = WorksArray[1].categories;
+btnCollection[1].innerHTML = WorksArray[1].buttonLive;
+
+/* -- Card 3 Content -- */
+
+document.getElementById('card_3').children[0].style.content = WorksArray[2].thumbnail;
+document.getElementById('title_project_3').innerHTML = WorksArray[2].projectTitle;
+document.getElementById('card_tags_3').innerHTML = WorksArray[2].tags;
+document.getElementById('card_info_3').innerHTML = WorksArray[2].info;
+document.getElementById('card_categories_3').innerHTML = WorksArray[2].categories;
+btnCollection[2].innerHTML = WorksArray[2].buttonLive;
+
+/* -- Card 4 Content -- */
+
+document.getElementById('card_4').children[0].style.content = WorksArray[3].thumbnail;
+document.getElementById('title_project_4').innerHTML = WorksArray[3].projectTitle;
+document.getElementById('card_tags_4').innerHTML = WorksArray[3].tags;
+document.getElementById('card_info_4').innerHTML = WorksArray[3].info;
+document.getElementById('card_categories_4').innerHTML = WorksArray[3].categories;
+btnCollection[3].innerHTML = WorksArray[3].buttonLive;
+
+/* Popup Window */
+
+btnCollection[0].addEventListener('click', () => {
+  const body = document.querySelector('body');
+  const main = document.createElement('div');
+  main.id = 'main_popup';
+  const popup = document.createElement('article');
+  popup.id = 'popup';
+  popup.innerHTML = `
+  <img class="thumbnails" id="work_1" />
+            <div class="card_block" id="card_block_1">
+                <h2 class="project_title" id="title_project_1">Tonic</h2>
+                <p class="card_tags" id="card_tags_1"><b>CANOPY</b> <span id="tags_info">• Back End Dev • 2015</span></p>
+                <p class="card_info" id="card_info_1">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type
+                specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essent.
+                </p>
+                <ul class="card_categories" id="card_categories_1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <div class="button_box">
+                <button class="see_more popup_button">See Live</button>
+                <button class="see_more popup_button">See Source</button>
+                </div>
+            </div>
+  `;
+
+  main.appendChild(popup);
+  body.appendChild(main);
+});

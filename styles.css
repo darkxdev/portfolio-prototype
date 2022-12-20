@@ -698,3 +698,52 @@ body {
   position: absolute;
   white-space: nowrap;
 }
+
+/* Popup Window Styling */
+
+#main_popup {
+  width: 100%;
+  height: 100vh;
+  background-color: #c1c7d095;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+
+#popup {
+  width: 375px;
+  height: auto;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#popup p {
+  height: auto;
+}
+
+#popup ul {
+  margin-bottom: 20px;
+}
+
+.button_box {
+  display: flex;
+  border-top: 1px solid #ebecf0;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.popup_button {
+margin: 0;
+width: 48%;
+padding-top: 15px;
+padding-bottom: 15px;
+}
