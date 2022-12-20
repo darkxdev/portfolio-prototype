@@ -15,10 +15,100 @@ body {
   box-sizing: border-box;
   margin: auto;
   z-index: 1;
+  position: relative;
 }
 
 #menu_list {
   display: none;
+}
+
+#mobile_menu {
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  display: none;
+  width: 375px;
+  margin: auto;
+  height: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#close_icon {
+  float: right;
+  width: auto;
+  background-color: transparent;
+  border: 0;
+  padding: 20px;
+}
+
+#mobile_menu ul {
+  list-style: none;
+  text-align: left;
+  padding: 30px;
+  margin: 0;
+  height: 100vh;
+  clear: both;
+}
+
+.card_categories li {
+  padding: 4px 12px;
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  height: 16px;
+  margin-right: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.social li {
+  margin-right: 22px;
+}
+
+#about_categories li {
+  border-bottom: solid 1px #dfe1e6;
+  list-style: none;
+  height: auto;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 60px;
+  padding: 5px 0;
+}
+
+#about_languages li {
+  display: flex;
+  width: auto;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f7f7f9;
+  margin: 15px 0;
+  list-style: none;
+  font-size: 15px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+#mobile_menu ul li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  padding: 15px 0;
+  line-height: 44px;
+}
+
+#mobile_menu ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 #about_up {
@@ -103,10 +193,6 @@ body {
   align-items: center;
   list-style: none;
   margin: 0;
-}
-
-.social li {
-  margin-right: 22px;
 }
 
 #works_cards {
@@ -216,21 +302,6 @@ body {
   padding-left: 0;
 }
 
-.card_categories li {
-  padding: 4px 12px;
-  background-color: #ebebff;
-  color: #6070ff;
-  border-radius: 8px;
-  height: 16px;
-  margin-right: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-}
-
 .see_more {
   width: auto;
   color: #396df2;
@@ -270,33 +341,8 @@ body {
   justify-content: space-between;
 }
 
-#about_categories li {
-  border-bottom: solid 1px #dfe1e6;
-  list-style: none;
-  height: auto;
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 60px;
-  padding: 5px 0;
-}
-
 #about_languages ul {
   padding: 15px;
-}
-
-#about_languages li {
-  display: flex;
-  width: auto;
-  height: 60px;
-  line-height: 60px;
-  background-color: #f7f7f9;
-  margin: 15px 0;
-  list-style: none;
-  font-size: 15px;
-  padding-left: 15px;
-  border-radius: 10px;
 }
 
 #about_languages span {

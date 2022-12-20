@@ -5,6 +5,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -39,6 +40,23 @@ Personal Portfolio is a project made in the Microverse program.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Key Features <a name="key-features"></a>
+
+- **Showcase my work**
+- **Desktop and mobile versions**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+You can checkout the running website here:
+
+- [Live Demo Link](https://darkxdev.github.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -66,16 +84,6 @@ I do recommend this method given it is easier, but if you want you can make this
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-You can checkout the running website here:
-
-- [Live Demo Link](https://darkxdev.github.io/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHOR -->
 
 ## 👤 Author <a name="author"></a>
@@ -84,6 +92,15 @@ Bryan Hurtado
 
 - GitHub: [@DarkxDev](https://github.com/DarkxDev)
 - Twitter: [@BryanHurtado_](https://twitter.com/BryanHurtado_)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **Include more works**
+- **Interactivity with JavaScript and DOM manipulation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
