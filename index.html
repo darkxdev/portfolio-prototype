@@ -195,13 +195,14 @@
                 If you have an application you are interested in developing, a feature that you need built or a
                 project that needs coding, I’d love to help with it.
             </p>
-            <form id="form" action="https://formspree.io/f/myyvrjyj" method="post">
+            <form onsubmit="return validateEmail()" id="form" action="https://formspree.io/f/xoqzalyj" method="post">
                 <label for="" class="sr-only">Full name</label>
                 <input type="text" class="form_field" id="form_name" name="form_name" placeholder="Name" maxlength="30"
                     required />
                 <label for="" class="sr-only">Email address</label>
                 <input type="email" class="form_field" id="form_email" name="form_email" placeholder="username@domain"
                     required />
+                    <p id="form_email_error_msg"></p>
                 <label for="" class="sr-only">Write your message</label>
                 <textarea id="message" class="form_field" name="form_message" rows="6"
                     placeholder="Write your message here" maxlength="500" required></textarea>

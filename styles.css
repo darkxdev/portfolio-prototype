@@ -777,6 +777,12 @@ body {
   padding: 0;
 }
 
+#contact_form #form_email_error_msg {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
 @media (min-width: 768px) {
   #popup {
     width: 80%;

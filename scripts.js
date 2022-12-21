@@ -269,3 +269,19 @@ btnCollection[3].addEventListener('click', () => {
     body.removeChild(main);
   });
 });
+
+/* -- Form Validation -- */
+
+const lowercase_required = 'Please make sure all letters are in lowercase.'
+
+function validateEmail() {
+  const emailField = document.getElementById('form_email').value;
+  const re = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+  
+  if (!re.test(emailField)) {
+    document.getElementById('form_email_error_msg').innerText = 'Error'
+    
+    return false;
+  }
+  return true;
+}
