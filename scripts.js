@@ -278,7 +278,7 @@ function validateEmail(event) {
 
   if (!re.test(emailField)) {
     document.getElementById('form_email_error_msg').innerText = 'Error';
-
+    document.getElementById('form_email').focus();
     event.preventDefault();
     return false;
   }
