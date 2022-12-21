@@ -236,19 +236,19 @@ body {
 }
 
 #work_1 {
-  content: url(./imgs/works_desktop_3.png);
+  content: url(./imgs/works_desktop_1.png);
 }
 
 #work_2 {
-  content: url(./imgs/works_desktop_4.png);
+  content: url(./imgs/works_desktop_2.png);
 }
 
 #work_3 {
-  content: url(./imgs/works_3.png);
+  content: url(./imgs/works_desktop_3.png);
 }
 
 #work_4 {
-  content: url(./imgs/works_desktop_2.png);
+  content: url(./imgs/works_desktop_4.png);
 }
 
 .project_title {
@@ -697,4 +697,138 @@ body {
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
+}
+
+/* Popup Window Styling */
+
+#main_popup {
+  width: 100%;
+  height: 100%;
+  background-color: #c1c7d095;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+#popup {
+  width: 345px;
+  height: auto;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#popup h2 {
+  margin: 0 0 20px 0;
+  float: left;
+  width: auto;
+}
+
+#popup p {
+  height: auto;
+  clear: both;
+}
+
+#popup .thumbnails {
+  margin: 0 auto 20px auto;
+}
+
+#popup ul {
+  margin-bottom: 20px;
+}
+
+.button_box {
+  display: flex;
+  border-top: 1px solid #ebecf0;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.popup_button {
+  margin: 0;
+  width: 48%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
+}
+
+#popup_live {
+  content: url(./imgs/live_popup.png);
+}
+
+#popup_source {
+  content: url(./imgs/source_popup.png);
+}
+
+#close_x_popup {
+  float: right;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  #popup {
+    width: 80%;
+  }
+
+  #popup .card_block {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #close_x_popup {
+    width: 24px;
+    position: fixed;
+    left: 85%;
+  }
+
+  #popup h2 {
+    margin: 0;
+  }
+
+  #popup .thumbnails {
+    width: 100%;
+    height: 586px;
+    object-fit: cover;
+  }
+
+  .work_description {
+    display: flex;
+  }
+
+  #popup .card_info {
+    width: 65%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+  }
+
+  .categories_box {
+    width: auto;
+  }
+
+  #popup .card_categories {
+    width: auto;
+  }
+
+  .button_box {
+    width: 100%;
+    padding: 0;
+    justify-content: flex-end;
+  }
+
+  #popup .see_more {
+    width: auto;
+    margin: 0 5px 0 0;
+  }
 }
