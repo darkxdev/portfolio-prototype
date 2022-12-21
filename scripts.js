@@ -66,7 +66,7 @@ const btnCollection = document.getElementsByClassName('see_more');
 
 /* -- Card 1 Content -- */
 
-document.getElementById('card_1').children[0].style.content = WorksArray[0].thumbnail;
+document.getElementById('work_1').style.content = WorksArray[0].thumbnail;
 document.getElementById('title_project_1').innerHTML = WorksArray[0].projectTitle;
 document.getElementById('card_tags_1').innerHTML = WorksArray[0].tags;
 document.getElementById('card_info_1').innerHTML = WorksArray[0].info;
@@ -109,29 +109,163 @@ btnCollection[0].addEventListener('click', () => {
   const popup = document.createElement('article');
   popup.id = 'popup';
   popup.innerHTML = `
-  <img class="thumbnails" id="work_1" />
-            <div class="card_block" id="card_block_1">
-                <h2 class="project_title" id="title_project_1">Tonic</h2>
-                <p class="card_tags" id="card_tags_1"><b>CANOPY</b> <span id="tags_info">• Back End Dev • 2015</span></p>
-                <p class="card_info" id="card_info_1">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                when an unknown printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essent.
-                </p>
-                <ul class="card_categories" id="card_categories_1">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-                <div class="button_box">
-                <button class="see_more popup_button">See Live</button>
-                <button class="see_more popup_button">See Source</button>
-                </div>
-            </div>
+  <div class="card_block" id="card_block_1">
+  <button id="close_x_popup"><img src="./imgs/close_x_popup.png"></button>
+      <h2 class="project_title" id="title_project_1">${WorksArray[0].projectTitle}</h2>
+      <p class="card_tags" id="card_tags_1">${WorksArray[0].tags}</p>
+      <img class="thumbnails" id="work_1"/>
+      <div class="work_description">
+      <p class="card_info" id="card_info_1">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to make a type
+      specimen book. It has survived not only five centuries, but also the leap into
+      electronic typesetting, remaining essent.
+      </p>
+      <div class="categories_box">
+        <ul class="card_categories" id="card_categories_1">
+        ${WorksArray[0].categories}
+        </ul>
+        <div class="button_box">
+          <button class="see_more popup_button">See Live<img src="./" id="popup_live"></button>
+          <button class="see_more popup_button">See Source<img id="popup_source"></button>
+        </div>
+      </div>
+      </div>
+  </div>
   `;
 
   main.appendChild(popup);
   body.appendChild(main);
+
+  const closePopup = document.querySelector('#close_x_popup');
+  closePopup.addEventListener('click', () => {
+    body.removeChild(main);
+  });
+});
+
+btnCollection[1].addEventListener('click', () => {
+  const body = document.querySelector('body');
+  const main = document.createElement('div');
+  main.id = 'main_popup';
+  const popup = document.createElement('article');
+  popup.id = 'popup';
+  popup.innerHTML = `
+  <div class="card_block" id="card_block_1">
+  <button id="close_x_popup"><img src="./imgs/close_x_popup.png"></button>
+      <h2 class="project_title" id="title_project_1">${WorksArray[1].projectTitle}</h2>
+      <p class="card_tags" id="card_tags_1">${WorksArray[1].tags}</p>
+      <img class="thumbnails" id="work_1"/>
+      <div class="work_description">
+      <p class="card_info" id="card_info_1">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to make a type
+      specimen book. It has survived not only five centuries, but also the leap into
+      electronic typesetting, remaining essent.
+      </p>
+      <div class="categories_box">
+        <ul class="card_categories" id="card_categories_1">
+        ${WorksArray[1].categories}
+        </ul>
+        <div class="button_box">
+          <button class="see_more popup_button">See Live<img src="./" id="popup_live"></button>
+          <button class="see_more popup_button">See Source<img id="popup_source"></button>
+        </div>
+      </div>
+      </div>
+  </div>
+  `;
+
+  main.appendChild(popup);
+  body.appendChild(main);
+
+  const closePopup = document.querySelector('#close_x_popup');
+  closePopup.addEventListener('click', () => {
+    body.removeChild(main);
+  });
+});
+
+btnCollection[2].addEventListener('click', () => {
+  const body = document.querySelector('body');
+  const main = document.createElement('div');
+  main.id = 'main_popup';
+  const popup = document.createElement('article');
+  popup.id = 'popup';
+  popup.innerHTML = `
+  <div class="card_block" id="card_block_1">
+  <button id="close_x_popup"><img src="./imgs/close_x_popup.png"></button>
+      <h2 class="project_title" id="title_project_1">${WorksArray[2].projectTitle}</h2>
+      <p class="card_tags" id="card_tags_1">${WorksArray[2].tags}</p>
+      <img class="thumbnails" id="work_1"/>
+      <div class="work_description">
+      <p class="card_info" id="card_info_1">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to make a type
+      specimen book. It has survived not only five centuries, but also the leap into
+      electronic typesetting, remaining essent.
+      </p>
+      <div class="categories_box">
+        <ul class="card_categories" id="card_categories_1">
+        ${WorksArray[2].categories}
+        </ul>
+        <div class="button_box">
+          <button class="see_more popup_button">See Live<img src="./" id="popup_live"></button>
+          <button class="see_more popup_button">See Source<img id="popup_source"></button>
+        </div>
+      </div>
+      </div>
+  </div>
+  `;
+
+  main.appendChild(popup);
+  body.appendChild(main);
+
+  const closePopup = document.querySelector('#close_x_popup');
+  closePopup.addEventListener('click', () => {
+    body.removeChild(main);
+  });
+});
+
+btnCollection[3].addEventListener('click', () => {
+  const body = document.querySelector('body');
+  const main = document.createElement('div');
+  main.id = 'main_popup';
+  const popup = document.createElement('article');
+  popup.id = 'popup';
+  popup.innerHTML = `
+  <div class="card_block" id="card_block_1">
+  <button id="close_x_popup"><img src="./imgs/close_x_popup.png"></button>
+      <h2 class="project_title" id="title_project_1">${WorksArray[3].projectTitle}</h2>
+      <p class="card_tags" id="card_tags_1">${WorksArray[3].tags}</p>
+      <img class="thumbnails" id="work_1"/>
+      <div class="work_description">
+      <p class="card_info" id="card_info_1">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to make a type
+      specimen book. It has survived not only five centuries, but also the leap into
+      electronic typesetting, remaining essent.
+      </p>
+      <div class="categories_box">
+        <ul class="card_categories" id="card_categories_1">
+        ${WorksArray[3].categories}
+        </ul>
+        <div class="button_box">
+          <button class="see_more popup_button">See Live<img src="./" id="popup_live"></button>
+          <button class="see_more popup_button">See Source<img id="popup_source"></button>
+        </div>
+      </div>
+      </div>
+  </div>
+  `;
+
+  main.appendChild(popup);
+  body.appendChild(main);
+
+  const closePopup = document.querySelector('#close_x_popup');
+  closePopup.addEventListener('click', () => {
+    body.removeChild(main);
+  });
 });
