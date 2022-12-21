@@ -755,11 +755,11 @@ body {
 }
 
 .popup_button {
-margin: 0;
-width: 48%;
-padding-top: 10px;
-padding-bottom: 10px;
-justify-content: space-evenly;
+  margin: 0;
+  width: 48%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-evenly;
 }
 
 #popup_live {
@@ -818,7 +818,7 @@ justify-content: space-evenly;
   }
 
   #popup .card_categories {
-    width: 100%;
+    width: auto;
   }
 
   .button_box {
@@ -826,6 +826,7 @@ justify-content: space-evenly;
     padding: 0;
     justify-content: flex-end;
   }
+
   #popup .see_more {
     width: 142px;
     margin: 5px;
