@@ -272,16 +272,18 @@ btnCollection[3].addEventListener('click', () => {
 
 /* -- Form Validation -- */
 
-const lowercase_required = 'Please make sure all letters are in lowercase.'
-
-function validateEmail() {
+function validateEmail(event) {
   const emailField = document.getElementById('form_email').value;
   const re = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
-  
+
   if (!re.test(emailField)) {
-    document.getElementById('form_email_error_msg').innerText = 'Error'
-    
+    document.getElementById('form_email_error_msg').innerText = 'Error';
+
+    event.preventDefault();
     return false;
   }
   return true;
 }
+
+const form = document.querySelector('#form');
+form.addEventListener('submit', validateEmail);
