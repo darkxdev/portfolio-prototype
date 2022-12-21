@@ -827,7 +827,7 @@ justify-content: space-evenly;
     justify-content: flex-end;
   }
   #popup .see_more {
-    width: 142px;
-    margin: 5px;
+    width: auto;
+    margin: 0 5px 0 0;
   }
 }
