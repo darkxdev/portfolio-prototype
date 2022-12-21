@@ -155,7 +155,7 @@ btnCollection[1].addEventListener('click', () => {
   <button id="close_x_popup"><img src="./imgs/close_x_popup.png"></button>
       <h2 class="project_title" id="title_project_1">${WorksArray[1].projectTitle}</h2>
       <p class="card_tags" id="card_tags_1">${WorksArray[1].tags}</p>
-      <img class="thumbnails" id="work_1"/>
+      <img class="thumbnails" id="work_2"/>
       <div class="work_description">
       <p class="card_info" id="card_info_1">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -197,7 +197,7 @@ btnCollection[2].addEventListener('click', () => {
   <button id="close_x_popup"><img src="./imgs/close_x_popup.png"></button>
       <h2 class="project_title" id="title_project_1">${WorksArray[2].projectTitle}</h2>
       <p class="card_tags" id="card_tags_1">${WorksArray[2].tags}</p>
-      <img class="thumbnails" id="work_1"/>
+      <img class="thumbnails" id="work_3"/>
       <div class="work_description">
       <p class="card_info" id="card_info_1">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -239,7 +239,7 @@ btnCollection[3].addEventListener('click', () => {
   <button id="close_x_popup"><img src="./imgs/close_x_popup.png"></button>
       <h2 class="project_title" id="title_project_1">${WorksArray[3].projectTitle}</h2>
       <p class="card_tags" id="card_tags_1">${WorksArray[3].tags}</p>
-      <img class="thumbnails" id="work_1"/>
+      <img class="thumbnails" id="work_4"/>
       <div class="work_description">
       <p class="card_info" id="card_info_1">
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
