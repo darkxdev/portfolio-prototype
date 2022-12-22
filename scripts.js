@@ -287,3 +287,25 @@ function validateEmail(event) {
 
 const form = document.querySelector('#form');
 form.addEventListener('submit', validateEmail);
+
+/* Local Storage */
+
+form.addEventListener('change', () => {
+  const formName = document.getElementById('form_name').value;
+  const formEmail = document.getElementById('form_email').value;
+  const formMsg = document.getElementById('message').value;
+
+  const dataStorage = {
+    formName,
+    formEmail,
+    formMsg,
+  };
+
+  localStorage.setItem('data', JSON.stringify(dataStorage));
+});
+
+const dataOutput = JSON.parse(localStorage.getItem('data'));
+
+document.getElementById('form_name').value = dataOutput.formName;
+document.getElementById('form_email').value = dataOutput.formEmail;
+document.getElementById('message').value = dataOutput.formMsg;
