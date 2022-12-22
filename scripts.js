@@ -290,12 +290,12 @@ form.addEventListener('submit', validateEmail);
 
 /* Local Storage */
 
-form.addEventListener('change', () => {
+form.addEventListener('keyup', () => {
   const formName = document.getElementById('form_name').value;
   const formEmail = document.getElementById('form_email').value;
   const formMsg = document.getElementById('message').value;
 
-  const dataStorage = {
+  let dataStorage = {
     formName,
     formEmail,
     formMsg,
